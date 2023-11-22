@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "latitude": 45.183657,
+      "longitude": 28.781052,
+      "title": "Lacul Ciuperca",
+      "description": "Inchiriere hidrobiciclete",
+      "image": "https://ziaruldelta.ro/wp-content/uploads/2022/04/Liber-la-inchiriat-1000x640.jpg",
+      "icon" : "faSailboat",
+      "color": "#0077b6"
+    },
+    {
+      "id": 2,
+      "latitude": 45.180104,
+      "longitude": 28.805754,
+      "title": "Acvariu Danube Delta",
+      "image": "https://www.icemtl.ro/wp-content/uploads/2014/05/Centrul-Muzeal-Eco-Turistic-Delta-Dunarii-2.jpg",
+      "icon": "faFish",
+      "color": "#0077b6"
+    },
+    {
+      "id": 3,
+      "latitude": 45.1824122,
+      "longitude": 28.8094768,
+      "title": "Monumentul Independenței",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPDT4FuvDqPYvXaFLm8bX2xgrDUh8P-z7aecMtZ=s1360-w1360-h1020",
+      "icon": "faMonument",
+      "color": "#0077b6"
+    }, 
+    {
+      "id": 4,
+      "latitude": 45.1788859,
+      "longitude": 28.8040752,
+      "title": "St. Nicholas Cathedral",
+      "image": "https://live.staticflickr.com/5535/10952101105_d31b3c8e28_b.jpg",
+      "icon": "faChurch",
+      "color": "#0077b6"
+    },
+    {
+      "id": 5,
+      "latitude": 45.17803192138672,
+      "longitude": 28.802509307861328,
+      "title": "The Avramide Collections House",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMlZX6fW0UqdECTc3d-o5YpKCtR2o_r_sTCgRxB=s1360-w1360-h1020",
+      "icon": "faCrown",
+      "color": "#0077b6"
+    },
+    {
+      "id": 6,
+      "latitude": 45.16667,
+      "longitude": 28.8,
+      "title": "Tulcea Art Museum",
+      "image": "https://www.icemtl.ro/wp-content/uploads/2014/05/Muzeul-de-Arta-2013-2.jpg",
+      "icon": "faBuildingColumns",
+      "color": "#0077b6"
+    },
+    {
+      "id": 7,
+      "latitude": 45.177219,
+      "longitude": 28.804208,
+      "title": "Piața Civică",
+       
+      "image": "https://www.turistulliber.ro/wp-content/uploads/2021/06/piata-civica-tulcea-1024x683.jpg",
+      "icon": "faArchway",
+      "color": "#0077b6"
+    },
+    {
+      "id": 8,
+      "latitude": 45.1801165,
+      "longitude": 28.8011549,
+      "title": "Faleza Tulcea",
+       
+      "image": "https://media.dcbusiness.ro/image/202307/w670/faleza1_72375700.jpg",
+      "icon": "faWater",
+      "color": "#0077b6"
+    }
+   
+  ]
+  
