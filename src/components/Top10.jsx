@@ -13,8 +13,8 @@ const Top10 = () => {
       id: 1,
       number: 1,
       image: '/assets/pictures/faleza.jpeg',
-      title: '1a',
-      text: '1a..',
+      title: 'Faleza Ivan Patzaichin',
+      text: 'Cu siguranță cea mai vizitată atracție turistică din orașul Tulcea, datorită, în primul rând, a faptului că reprezintă punctul de plecare spre Delta Dună...',
     },
     {
       id: 2,
