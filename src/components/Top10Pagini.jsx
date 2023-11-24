@@ -4,6 +4,9 @@ import { useParams } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Harta from './Harta'
+
+ 
 
 
 const Recenzii = ({ reviews }) => {
@@ -154,8 +157,10 @@ const top10PaginiData = [
         stars: 5,
         review: 'Modern and tasteful waterfront. A necessary upgrade for any city with tourist aspirations.',
       },
-  
+      
     ],
+    coordinates: { lat: 45.1801165, lng: 28.8011549 },
+    windowText: 'Faleza Ivan Patzaichin'
   },
 
   {
@@ -683,10 +688,17 @@ const Top10Pagini = () => {
       </React.Fragment>
     ))}
   </p>
-</div>
+        </div>
 
-<Recenzii reviews={element.reviews} />
+    <Recenzii reviews={element.reviews} />
+    <div className="h-[300px]      ">
+    <Harta coordinates={element.coordinates} windowText={element.windowText} />
+    </div>
+ 
+ 
+    
 </div>
+ 
   );
 };
 
