@@ -157,7 +157,6 @@ const top10PaginiData = [
         stars: 5,
         review: 'Modern and tasteful waterfront. A necessary upgrade for any city with tourist aspirations.',
       },
-      
     ],
     coordinates: { lat: 45.1801165, lng: 28.8011549 },
     windowText: 'Faleza Ivan Patzaichin'
@@ -212,11 +211,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'Stuning view, best place if you want to take pictures.',
       },
- 
     ],
- 
- 
- 
+    coordinates: { lat: 45.1824122, lng: 28.8094768 },
+    windowText: 'Monumentul Independentei'
   },
   {
     id: 3,
@@ -267,8 +264,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'A clean park with a very good running and bike path.',
       },
- 
     ],
+    coordinates: { lat: 45.183657, lng: 28.781052 },
+    windowText: 'Lacul Ciuperca'
   },
   {
     id: 4,
@@ -319,8 +317,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'I never expected it but it was amazing. Everybody should see it if you are in the area.',
       },
- 
     ],
+    coordinates: { lat: 45.180104, lng: 28.805754 },
+    windowText: 'Acvariu Danube Delta'
   },
   {
     id: 5,
@@ -371,8 +370,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'A pleasant place especially for children. It is provided with a park and space for rollerblades, bicycles and scooters.',
       },
- 
     ],
+    coordinates: { lat: 45.177219, lng: 28.804208 },
+    windowText: 'Piata Civica'
   },
   
   {
@@ -424,8 +424,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'A special museum, it is worth setting aside time for it when you arrive in Tulcea.',
       },
- 
     ],
+    coordinates: { lat: 45.16667, lng: 28.8 },
+    windowText: 'Tulcea Art Museum'
   },
   {
     id: 7,
@@ -476,8 +477,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'Everything is superlative, you are transported to another world as soon as you step through the door. I recommend with love!',
       },
- 
     ],
+    coordinates: { lat: 45.17803192138672, lng: 28.802509307861328 },
+    windowText: 'The Avramide Collections House'
   },
   {
     id: 8,
@@ -528,8 +530,9 @@ const top10PaginiData = [
         stars: 5,
         review: 'Super! A beautiful cathedral from the time of the Turks.',
       },
- 
     ],
+    coordinates: { lat: 45.1788859, lng: 28.8040752 },
+    windowText: 'St. Nicholas Cathedral'
   },
   {
     id: 9,
@@ -580,9 +583,10 @@ const top10PaginiData = [
         stars: 5,
         review: 'The village is quite lovely. You get to see traditional fishing houses from all over Danube delta. Also, near the parking area there is a restaurant with good food.',
       },
- 
     ],
-  },
+    coordinates: { lat: 45.16718259997265, lng: 28.846923963493975 },
+    windowText: 'Satul pescăresc tradiţional'
+  }, 
   {
     id: 10,
     number: 10,
@@ -632,11 +636,12 @@ const top10PaginiData = [
         stars: 5,
         review: 'It is not a very big museum, but it is definitely worth visiting if you are passing through Tulcea. Tickets cost 10 lei for adults and 5 lei for children.',
       },
- 
     ],
+    coordinates: { lat: 45.18665299637927, lng: 28.817183317462106 },
+    windowText: 'Muzeul de Istorie şi Arheologie'
   },
 ];
-
+ 
 
 const Top10Pagini = () => {
   
