@@ -5,7 +5,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 const CazareInstaGrid = () => {
   return (
     <div> 
-    <div className="relative mx-auto h-screen w-screen z-20">
+    <div className="relative mx-auto h-screen   z-20">
       <div className="relative w-full h-full">
         <img
           src="/assets/pictures/HotelCondor.png"

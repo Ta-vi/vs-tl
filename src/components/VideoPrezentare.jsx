@@ -8,6 +8,7 @@ class VideoPrezentare extends React.Component {
           <source src="assets/videos/Tulcea2.mp4" type="video/mp4" />
           { }
         </video> 
+        <div class="absolute bottom-0 left-0 w-full h-2 bg-[#0077b6]"></div>
       </div>
     );
   }

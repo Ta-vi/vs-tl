@@ -6,7 +6,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import markers from './markers.json';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
+{/* test */}
 function HartaInteractiva() {
 
   const getFontAwesomeIcon = (icon) => {
@@ -48,7 +48,7 @@ function HartaInteractiva() {
 }, [])
 
   return (
-    <div className="gap-16 px-80 py-24 h-screen w-screen h-screen w-screen relative">
+    <div className="gap-16 px-80 py-24 h-screen  relative">
       <div className="absolute top-60 left-0 w-full h-1/3 bg-[#0077b6]"></div>
       <div className="grid grid-rows-3 gap-1 text-4xl px-24   ">
         <p className="text-[#0077b6]">TULCEA,</p>
@@ -118,7 +118,7 @@ function HartaInteractiva() {
         <Link to="/top10">
         <p className="  text-[#0077b6]"> <FontAwesomeIcon icon={faArrowLeft} size="2x"/> TOP 10 OBIECTIVE TURISTICE DIN ORAȘ  </p>
         </Link>
-        <p className="  text-[#0077b6]"> <FontAwesomeIcon icon={faArrowRight } size="2x"/> CLICK AICI PENTRU A ACCESA LISTA ÎN FORMAT GRID</p>
+        
     </div>
     </div>
     </div>
