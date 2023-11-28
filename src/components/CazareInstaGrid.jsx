@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import { Link } from 'react-router-dom';
 const CazareInstaGrid = () => {
   return (
     <div> 
@@ -20,9 +20,11 @@ const CazareInstaGrid = () => {
           ÎNCEPE AICI
         </div>
         <div className="absolute inset-0 bottom-28 left-80 right-0 flex items-center justify-center">
+        <Link to="/top10Cazari">
           <button className="bg-yellow-600 text-white py-4 px-6 rounded-lg text-5xl transform translate-x-3/4 shadow font-bold">
             TOP 10 CAZĂRI
           </button>
+        </Link>
         </div>
         <div className="absolute inset-x-0 text-center">
           <div className="flex flex-col items-center">
