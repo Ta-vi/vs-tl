@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const CazareInstaGrid = () => {
   return (
     <div> 
-    <div className="relative mx-auto h-screen   z-20">
+    <div className="relative mx-auto h-screen  z-20">
       <div className="relative w-full h-full">
         <img
           src="/assets/pictures/HotelCondor.png"
@@ -19,10 +19,16 @@ const CazareInstaGrid = () => {
         <div className="absolute top-80 left-52 p-32 text-white text-8xl font-bold">
           ÎNCEPE AICI
         </div>
-        <div className="absolute inset-0 bottom-28 left-80 right-0 flex items-center justify-center">
-        <Link to="/top10Cazari">
-          <button className="bg-yellow-600 text-white py-4 px-6 rounded-lg text-5xl transform translate-x-3/4 shadow font-bold">
-            TOP 10 CAZĂRI
+        <div className="absolute inset-0 bottom-28 left-auto right-64 flex flex-col items-center justify-center space-y-5">
+        <Link to="/Hoteluri">
+         <button className="bg-yellow-600  text-white py-4 px-6 rounded-lg text-5xl shadow font-bold">
+           HOTELURI
+          </button>
+        </Link>
+         
+        <Link to="/Hoteluri">
+        <button className="bg-yellow-600 text-white py-4 px-6 rounded-lg text-5xl shadow font-bold">
+         APARTAMENTE
           </button>
         </Link>
         </div>
